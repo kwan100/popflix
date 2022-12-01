@@ -1,10 +1,58 @@
 body {
-    background-color: rgb(37, 37, 37);
-    color: white;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
-h1 {
-    color: goldenrod;
+#container {
+    width: 90%;
+}
+
+.navbar-brand .btn {
+    --bs-btn-padding-y: none;
+}
+
+.title {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+}
+
+.navbar {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar img {
+    width: 125px;
+}
+
+#mobile {
+    width: 36.5px;
+}
+
+.nav-search {
+    position: absolute;
+    width: 40%;
+    right: 30%;
+    height: 150%;
+    top: 20%;
+}
+
+.nav-search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav-search button:active {
+    border-color: white !important;
+}
+
+.nav-search img {
+    filter: invert(100%);
+    width: 20px;
 }
 
 img {
